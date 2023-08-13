@@ -1,1 +1,1 @@
-export const BASEURL = "https://tourbackend.vercel.app/"
+export const BASEURL = "https://tourserver.vercel.app/"
