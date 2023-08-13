@@ -22,7 +22,7 @@ const corsOptions = {
 main().catch(err => console.log(err));
 
 async function main() {
-  await mongoose.connect(process.env.MONGO_URL);
+  await mongoose.connect("mongodb+srv://codersam:oAehfbswfH9OfkiW@cluster0.sjry8oj.mongodb.net/?retryWrites=true&w=majority");
 
   console.log("Database connected successfully");
 }
