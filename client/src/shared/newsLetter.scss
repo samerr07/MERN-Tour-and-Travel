@@ -1,0 +1,55 @@
+.newsLetter{
+    background: #cae5f4;
+    padding: 0;
+    margin-top: 3rem;
+}
+
+.newsLetterImg img {
+    width: 100%;
+}
+
+.newsLetterContent{
+    padding: 50px 0;
+}
+
+.newsLetterContent h2{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.newsLetterInput{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+}
+
+.newsLetterInput input{
+    border: none;
+    font-size: 1.1rem;
+    color: var(--secondary-color) !important;
+}
+
+.newsLetterInput input:focus{
+    outline: none;
+}
+
+.newsLetterBtn{
+    padding: 0.5rem 1.5rem !important;
+    background: var(--secondary-color);
+    color: #fff !important;
+    font-size: 1.1rem !important;
+
+    &:hover{
+        color: var(--secondary-color);
+        background-color: var(--primary-color);
+    }
+}
+
+.newsLetterContent{
+    color: var(--heading-color);
+    font-size: 1.1rem;
+}

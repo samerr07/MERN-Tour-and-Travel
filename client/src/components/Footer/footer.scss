@@ -1,0 +1,41 @@
+.footer{
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.footer .logo img{
+    width:50%;
+    margin-bottom: 1rem;
+}
+
+.footer .logo p {
+    color: var(--text-color);
+    
+}
+
+.socialLinks span a{
+    text-decoration: none;
+    color: var(--heading-color);
+    font-size: 1.1rem;
+}
+
+.footerLinkTitle{
+    color: var(--heading-color);
+    margin-bottom: 1rem;
+}
+
+.footerQuickLinks li a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.1rem;
+}
+
+.footerQuickLinks h6 span i {
+    color: var(--secondary-color);
+    font-size: 1.1rem;
+}
+
+.copyright{
+    color: var(--text-color);
+    font-size: 1rem;
+}
